@@ -1,0 +1,31 @@
+body {
+
+    display: flex;
+    font-family: sans-serif;
+    margin: none;
+}
+h1{
+    padding-top: 20%;
+    margin: auto;    
+    text-align: center;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 20px 35px;
+    font-size: 20px;
+}
+
+#si{
+    left: 20%;
+    transform: translateY(-50%) translateX(-20%);
+}
+
+#no{
+    left: 80%;
+    transform: translateY(-50%) translateX(-80%);
+}
